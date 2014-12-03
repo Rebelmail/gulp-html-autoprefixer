@@ -1,0 +1,36 @@
+{
+  "name": "gulp-html-autoprefixer",
+  "version": "0.0.1",
+  "description": "Gulp plugin to Autoprefix all CSS inside an html page - CSS inside style tags and inside style attributes. Uses html-autoprefixer under the hood.",
+  "main": "lib/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rebelmail/gulp-html-autoprefixer.git"
+  },
+  "keywords": [
+    "autoprefixer",
+    "html",
+    "html-autoprefixer",
+    "auto-prefixer",
+    "css",
+    "gulp",
+    "gulp-html-autoprefixer"
+  ],
+  "readmeFilename": "README.md",
+  "author": "motdotla",
+  "license": "BSD",
+  "devDependencies": {
+    "mocha": "",
+    "should": ""
+  },
+  "dependencies": {
+    "event-stream": "^3.1.7",
+    "html-autoprefixer": "0.0.1"
+  }
+}
