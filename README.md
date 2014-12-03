@@ -6,7 +6,7 @@
 
 [![NPM version](https://badge.fury.io/js/gulp-html-autoprefixer.png)](http://badge.fury.io/js/gulp-html-autoprefixer)
 
-```
+```javascript
 var gulp = require( "gulp" );
 var htmlAutoprefixer = require( "gulp-html-autoprefixer" );
 
