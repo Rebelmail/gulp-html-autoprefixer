@@ -1,6 +1,6 @@
 {
   "name": "gulp-html-autoprefixer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Gulp plugin to Autoprefix all CSS inside an html page - CSS inside style tags and inside style attributes. Uses html-autoprefixer under the hood.",
   "main": "lib/main.js",
   "directories": {
@@ -31,6 +31,6 @@
   },
   "dependencies": {
     "event-stream": "^3.1.7",
-    "html-autoprefixer": "0.0.1"
+    "html-autoprefixer": "^0.3.5"
   }
 }
