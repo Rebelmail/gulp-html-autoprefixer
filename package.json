@@ -1,7 +1,7 @@
 {
-  "name": "gulp-html-autoprefixer",
+  "name": "tonix-gulp-html-autoprefixer",
   "version": "0.1.0",
-  "description": "Gulp plugin to Autoprefix all CSS inside an html page - CSS inside style tags and inside style attributes. Uses html-autoprefixer under the hood.",
+  "description": "Gulp plugin to Autoprefix all CSS inside an HTML page - CSS inside style tags and inside style attributes. Uses tonix-html-autoprefixer under the hood.",
   "main": "lib/main.js",
   "directories": {
     "test": "test"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rebelmail/gulp-html-autoprefixer.git"
+    "url": "https://github.com/tonix-tuft/tonix-gulp-html-autoprefixer.git"
   },
   "keywords": [
     "autoprefixer",
@@ -24,13 +24,13 @@
   ],
   "readmeFilename": "README.md",
   "author": "motdotla",
-  "license": "BSD",
+  "license": "MIT",
   "devDependencies": {
     "mocha": "",
     "should": ""
   },
   "dependencies": {
     "event-stream": "^3.1.7",
-    "html-autoprefixer": "^0.3.5"
+    "tonix-html-autoprefixer": "^1.2.0"
   }
 }

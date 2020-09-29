@@ -1,3 +1,11 @@
+# tonix-gulp-html-autoprefixer
+
+This package is a fork of the original [gulp-html-autoprefixer](https://github.com/Rebelmail/gulp-html-autoprefixer) repo.
+
+This fork comes with updated NPM packages.
+
+The original README.md follows below this paragraph.
+
 # gulp-html-autoprefixer
 
 ![gulp-html-autoprefixer](../master/gulp-html-autoprefixer.png?raw=true)
@@ -7,14 +15,15 @@
 [![NPM version](https://badge.fury.io/js/gulp-html-autoprefixer.png)](http://badge.fury.io/js/gulp-html-autoprefixer)
 
 ```javascript
-var gulp = require( "gulp" );
-var htmlAutoprefixer = require( "gulp-html-autoprefixer" );
+var gulp = require("gulp");
+var htmlAutoprefixer = require("gulp-html-autoprefixer");
 
-gulp.task( "html-autoprefix", function( ) {
-  return gulp.src( "./path/to/index-or-other.html" )
-    .pipe( htmlAutoprefixer( ) )
-    .pipe( gulp.dest( "dist" ) );
-} );
+gulp.task("html-autoprefix", function () {
+  return gulp
+    .src("./path/to/index-or-other.html")
+    .pipe(htmlAutoprefixer())
+    .pipe(gulp.dest("dist"));
+});
 ```
 
 ## Installation
@@ -30,4 +39,3 @@ npm install gulp-html-autoprefixer --save-dev
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-
