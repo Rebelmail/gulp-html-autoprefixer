@@ -1,13 +1,17 @@
 {
   "name": "tonix-gulp-html-autoprefixer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Gulp plugin to Autoprefix all CSS inside an HTML page - CSS inside style tags and inside style attributes. Uses tonix-html-autoprefixer under the hood.",
   "main": "lib/main.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test/*.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish-git": "npm publish && git push && git push --tags",
+    "publish-patch": "npm version patch && npm run publish-git",
+    "publish-minor": "npm version minor && npm run publish-git",
+    "publish-major": "npm version major && npm run publish-git"
   },
   "repository": {
     "type": "git",
