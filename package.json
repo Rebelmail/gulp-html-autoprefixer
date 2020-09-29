@@ -29,9 +29,11 @@
   "readmeFilename": "README.md",
   "author": "motdotla",
   "license": "MIT",
+  "peerDependencies": {
+    "gulp": ">=4.0.2"
+  },
   "devDependencies": {
-    "mocha": "",
-    "should": ""
+    "gulp": "^4.0.2"
   },
   "dependencies": {
     "event-stream": "^3.1.7",
