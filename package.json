@@ -37,6 +37,6 @@
   },
   "dependencies": {
     "event-stream": "^3.1.7",
-    "tonix-html-autoprefixer": "^1.3.0"
+    "tonix-html-autoprefixer": "^1.3.1"
   }
 }
