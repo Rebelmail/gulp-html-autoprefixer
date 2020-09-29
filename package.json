@@ -1,6 +1,6 @@
 {
   "name": "tonix-gulp-html-autoprefixer",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Gulp plugin to Autoprefix all CSS inside an HTML page - CSS inside style tags and inside style attributes. Uses tonix-html-autoprefixer under the hood.",
   "main": "lib/main.js",
   "directories": {
